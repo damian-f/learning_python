@@ -11,7 +11,7 @@ PASSWORDS = {"EMAIL" : "password123",
 import sys, pyperclip
 
 if len(sys.argv) < 2:
-    print("Password manager usage: python pw.py [account] --copies a password for a selected account")
+    print("Password manager usage: python password_manager.py [account] --copies a password for a selected account")
     sys.exit()
 
 account = sys.argv[1] #the first command line argument is the program name, the second is the account name
